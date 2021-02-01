@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/genephan/Google Drive/CLionProjects/untitled"
+CMAKE_SOURCE_DIR = "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug/CMakeFiles" "/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named test_leet1672
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled
-.PHONY : untitled
+test_leet1672: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_leet1672
+.PHONY : test_leet1672
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+test_leet1672/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/build
+.PHONY : test_leet1672/fast
+
+#=============================================================================
+# Target rules for targets named test_leet1431
+
+# Build rule for target.
+test_leet1431: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_leet1431
+.PHONY : test_leet1431
+
+# fast build rule for target.
+test_leet1431/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/build
+.PHONY : test_leet1431/fast
 
 leet1431.o: leet1431.cpp.o
 
@@ -149,7 +162,7 @@ leet1431.o: leet1431.cpp.o
 
 # target to build an object file
 leet1431.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leet1431.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/leet1431.cpp.o
 .PHONY : leet1431.cpp.o
 
 leet1431.i: leet1431.cpp.i
@@ -158,7 +171,7 @@ leet1431.i: leet1431.cpp.i
 
 # target to preprocess a source file
 leet1431.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leet1431.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/leet1431.cpp.i
 .PHONY : leet1431.cpp.i
 
 leet1431.s: leet1431.cpp.s
@@ -167,8 +180,35 @@ leet1431.s: leet1431.cpp.s
 
 # target to generate assembly for a file
 leet1431.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leet1431.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/leet1431.cpp.s
 .PHONY : leet1431.cpp.s
+
+leet1672.o: leet1672.cpp.o
+
+.PHONY : leet1672.o
+
+# target to build an object file
+leet1672.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/leet1672.cpp.o
+.PHONY : leet1672.cpp.o
+
+leet1672.i: leet1672.cpp.i
+
+.PHONY : leet1672.i
+
+# target to preprocess a source file
+leet1672.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/leet1672.cpp.i
+.PHONY : leet1672.cpp.i
+
+leet1672.s: leet1672.cpp.s
+
+.PHONY : leet1672.s
+
+# target to generate assembly for a file
+leet1672.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/leet1672.cpp.s
+.PHONY : leet1672.cpp.s
 
 tests/test_leet1431.o: tests/test_leet1431.cpp.o
 
@@ -176,7 +216,7 @@ tests/test_leet1431.o: tests/test_leet1431.cpp.o
 
 # target to build an object file
 tests/test_leet1431.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/tests/test_leet1431.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/tests/test_leet1431.cpp.o
 .PHONY : tests/test_leet1431.cpp.o
 
 tests/test_leet1431.i: tests/test_leet1431.cpp.i
@@ -185,7 +225,7 @@ tests/test_leet1431.i: tests/test_leet1431.cpp.i
 
 # target to preprocess a source file
 tests/test_leet1431.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/tests/test_leet1431.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/tests/test_leet1431.cpp.i
 .PHONY : tests/test_leet1431.cpp.i
 
 tests/test_leet1431.s: tests/test_leet1431.cpp.s
@@ -194,8 +234,35 @@ tests/test_leet1431.s: tests/test_leet1431.cpp.s
 
 # target to generate assembly for a file
 tests/test_leet1431.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/tests/test_leet1431.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/tests/test_leet1431.cpp.s
 .PHONY : tests/test_leet1431.cpp.s
+
+tests/test_leet1672.o: tests/test_leet1672.cpp.o
+
+.PHONY : tests/test_leet1672.o
+
+# target to build an object file
+tests/test_leet1672.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/tests/test_leet1672.cpp.o
+.PHONY : tests/test_leet1672.cpp.o
+
+tests/test_leet1672.i: tests/test_leet1672.cpp.i
+
+.PHONY : tests/test_leet1672.i
+
+# target to preprocess a source file
+tests/test_leet1672.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/tests/test_leet1672.cpp.i
+.PHONY : tests/test_leet1672.cpp.i
+
+tests/test_leet1672.s: tests/test_leet1672.cpp.s
+
+.PHONY : tests/test_leet1672.s
+
+# target to generate assembly for a file
+tests/test_leet1672.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/tests/test_leet1672.cpp.s
+.PHONY : tests/test_leet1672.cpp.s
 
 # Help Target
 help:
@@ -205,13 +272,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled"
+	@echo "... test_leet1431"
+	@echo "... test_leet1672"
 	@echo "... leet1431.o"
 	@echo "... leet1431.i"
 	@echo "... leet1431.s"
+	@echo "... leet1672.o"
+	@echo "... leet1672.i"
+	@echo "... leet1672.s"
 	@echo "... tests/test_leet1431.o"
 	@echo "... tests/test_leet1431.i"
 	@echo "... tests/test_leet1431.s"
+	@echo "... tests/test_leet1672.o"
+	@echo "... tests/test_leet1672.i"
+	@echo "... tests/test_leet1672.s"
 .PHONY : help
 
 

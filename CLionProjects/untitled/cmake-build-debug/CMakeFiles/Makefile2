@@ -64,16 +64,17 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/genephan/Google Drive/CLionProjects/untitled"
+CMAKE_SOURCE_DIR = "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/untitled.dir/all
+all: CMakeFiles/test_leet1672.dir/all
+all: CMakeFiles/test_leet1431.dir/all
 
 .PHONY : all
 
@@ -83,36 +84,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/untitled.dir/clean
+clean: CMakeFiles/test_leet1672.dir/clean
+clean: CMakeFiles/test_leet1431.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled.dir
+# Target rules for target CMakeFiles/test_leet1672.dir
 
 # All Build rule for target.
-CMakeFiles/untitled.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target untitled"
-.PHONY : CMakeFiles/untitled.dir/all
+CMakeFiles/test_leet1672.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" --progress-num=4,5,6 "Built target test_leet1672"
+.PHONY : CMakeFiles/test_leet1672.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/untitled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/genephan/Google Drive/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/untitled.dir/rule
+CMakeFiles/test_leet1672.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_leet1672.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/test_leet1672.dir/rule
 
 # Convenience name for target.
-untitled: CMakeFiles/untitled.dir/rule
+test_leet1672: CMakeFiles/test_leet1672.dir/rule
 
-.PHONY : untitled
+.PHONY : test_leet1672
 
 # clean rule for target.
-CMakeFiles/untitled.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/clean
-.PHONY : CMakeFiles/untitled.dir/clean
+CMakeFiles/test_leet1672.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1672.dir/build.make CMakeFiles/test_leet1672.dir/clean
+.PHONY : CMakeFiles/test_leet1672.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_leet1431.dir
+
+# All Build rule for target.
+CMakeFiles/test_leet1431.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target test_leet1431"
+.PHONY : CMakeFiles/test_leet1431.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_leet1431.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_leet1431.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/test_leet1431.dir/rule
+
+# Convenience name for target.
+test_leet1431: CMakeFiles/test_leet1431.dir/rule
+
+.PHONY : test_leet1431
+
+# clean rule for target.
+CMakeFiles/test_leet1431.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leet1431.dir/build.make CMakeFiles/test_leet1431.dir/clean
+.PHONY : CMakeFiles/test_leet1431.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
