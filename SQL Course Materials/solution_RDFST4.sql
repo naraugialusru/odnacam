@@ -1,0 +1,7 @@
+-- From the order_items table, get the times
+--     for order #6
+--     where the total price is greater than 30
+
+SELECT *
+FROM sql_store.order_items
+WHERE order_id = 6 AND quantity * unit_price > 30;
