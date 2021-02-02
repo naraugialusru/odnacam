@@ -1,4 +1,5 @@
 /Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles/test_leet1470.dir
 /Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles/test_leet1672.dir
 /Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/cmake-build-debug/CMakeFiles/test_leet1431.dir

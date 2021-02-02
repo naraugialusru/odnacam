@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/leet1672.cpp
+vector
+-
+
+/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/tests/test_leet1672.cpp
+../leet1672.cpp
+/Users/pcc33/Google Drive/naraugialusru_git/odnacam/CLionProjects/untitled/leet1672.cpp
+vector
+-
+iostream
+-
+
